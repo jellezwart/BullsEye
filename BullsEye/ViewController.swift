@@ -14,10 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    var currentValue: Int = 0
 
     @IBAction func showAlert() {
+        
+        let message = "The value of the slider is now \(currentValue)"
     
-    let alert = UIAlertController(title: "Hello world!", message: "This is my first app", preferredStyle: .alert)
+    let alert = UIAlertController(title: "Hello world!", message: message, preferredStyle: .alert)
     
     let action = UIAlertAction(title: "Awsome", style: .default, handler: nil)
     
@@ -27,7 +31,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func sliderMoved (_ slider: UISlider) {
-        print("The value of the slider is now \(slider.value)")
+        currentValue = lroundf(slider.value)
+        
+        
     }
 
 }
