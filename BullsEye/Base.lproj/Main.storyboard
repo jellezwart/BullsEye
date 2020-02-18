@@ -94,12 +94,17 @@
                                 <rect key="frame" x="20" y="329" width="68" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start over"/>
+                                <connections>
+                                    <action selector="startNewGame" destination="BYZ-38-t0r" eventType="touchUpInside" id="bAg-bs-UjU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="roundLabel" destination="Hy0-S6-Shx" id="UjO-ku-odE"/>
+                        <outlet property="scoreLabel" destination="Yai-W5-4i2" id="0cr-A9-YjY"/>
                         <outlet property="slider" destination="1R6-Eh-hZf" id="ufj-Vf-uSb"/>
                         <outlet property="targetLable" destination="5fY-kx-ryn" id="zc6-oy-wV6"/>
                     </connections>
