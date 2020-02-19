@@ -2,7 +2,7 @@
 //  AboutViewController.swift
 //  BullsEye
 //
-//  Created by Jelle Zwart on 19/02/2020
+//  Created by Jelle Zwart on 19/02/2020.
 //  Copyright © 2020 Black Pearl Applications. All rights reserved.
 //
 
