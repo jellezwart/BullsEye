@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		C64262DC23FDAEAD00603909 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		C64262DE23FDB55B00603909 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
-		C6D6823623FADA5B00C8D19F /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D6823623FADA5B00C8D19F /* Lenne's Bulls Eye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lenne's Bulls Eye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D6823923FADA5B00C8D19F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6D6823B23FADA5B00C8D19F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C6D6823D23FADA5B00C8D19F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		C6D6823723FADA5B00C8D19F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C6D6823623FADA5B00C8D19F /* BullsEye.app */,
+				C6D6823623FADA5B00C8D19F /* Lenne's Bulls Eye.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,7 +90,7 @@
 			);
 			name = BullsEye;
 			productName = BullsEye;
-			productReference = C6D6823623FADA5B00C8D19F /* BullsEye.app */;
+			productReference = C6D6823623FADA5B00C8D19F /* Lenne's Bulls Eye.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -300,7 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.BlackPearlApplications.BullsEye;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Lenne's Bulls Eye";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -318,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.BlackPearlApplications.BullsEye;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Lenne's Bulls Eye";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
